@@ -26,9 +26,12 @@
         {% endif %}
       {% endfor %}
 
-      <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a>
-      <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
-      <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
+      {% comment %}
+        todo: Develop git repository and dynamically link latest resume
+      {% endcomment %}
+
+      <a class="sidebar-nav-item" href="/assets/wnash-12-5-2020.pdf">Resume</a>
+      <a class="sidebar-nav-item" href="mailto:wnash@ucla.edu">Contact</a>
     </nav>
 
     <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>

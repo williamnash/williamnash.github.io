@@ -264,6 +264,57 @@ tbody tr:nth-child(odd) th {
 }
 
 
+/* WN added
+*/
+.bg
+{
+  background: url('/images/me.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+img[src*="#thumbnail"] {
+   width:150px;
+   /*height:100px;*/
+}
+
+* {
+   box-sizing: border-box;
+}
+h1 {
+   text-align: center;
+}
+.outer-grid {
+   display: flex;
+   flex-wrap: wrap;
+   padding: 0 2px;
+}
+.inner-grid {
+   flex: 33.3%;
+   max-width: 33.3%;
+   padding: 0 4px;
+}
+.inner-grid img {
+   width: 100%;
+   padding: 0 2px;
+}
+@media screen and (max-width: 800px) {
+   .inner-grid {
+      flex: 50%;
+      max-width: 50%;
+   }
+}
+@media screen and (max-width: 600px) {
+   .inner-grid {
+      flex: 100%;
+      max-width: 100%;
+   }
+}
+
+/* end WN added
+*/
+
 /*
  * Messages
  *
