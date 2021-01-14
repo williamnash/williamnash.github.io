@@ -30,7 +30,7 @@ Travel
 <img src="/images/mont-serrat.JPG" width="500"/>
 </div>
 <div class="inner-grid">
-<img src="/images/shanghai.JPG" width="500"/>
+<img src="/images/shanghai.jpg" width="500"/>
 <img src="/images/grindelwald.jpeg" width="500"/>
 <img src="/images/buddha.JPG" width="500"/>
 <img src="/images/cambodia.JPG" width="500"/>

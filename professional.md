@@ -33,8 +33,8 @@ Comprehensive Exam
 
 
 Profile Likelihood
-: My statistics course [final project][likelihood] covers an exact solution I had derived to profiling nuisance parameters for the multinomial distribution
-: The general idea is that if the Likelihood function is dependent on many variables, you can "profile" out all of the variables you don't need (called nuisance parameters).
+: My statistics course [final project][likelihood] covers an exact solution I had derived to profile nuisance parameters for the multinomial distribution
+: The general idea is that if the Likelihood function is dependent on many variables, you can "profile" out the variables you don't need (called nuisance parameters).
 
 <a name="software"></a>
 ## Software
