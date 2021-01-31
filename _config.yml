@@ -1,6 +1,3 @@
-# Dependencies
-highlighter:      pygments
-
 plugins: [jekyll-paginate]
 
 # Permalinks
@@ -17,7 +14,7 @@ baseurl:          /
 paginate:         5
 
 # Custom vars
-version:          0.1.0
+version:          0.1.1
 
 github:           
   repo:           https://github.com/williamnash/williamnash.github.io

@@ -3,7 +3,7 @@ layout: page
 title: Professional
 ---
 
-I am currently towards the end of my PhD in Experimental Particle Physics at UCLA. I have experience as a software engineer before attending graduate school and like to think I know my way around statistics, algorithms developments, cyclotrons, control systems and particle physics. Having spent years studying the arcane world of particle physics, I hope to move into a field where clever ideas are needed to solve problems that have a real impact on our future. A condensed version of my resume can be found in the sidebar with more details contained below
+I am currently towards the end of my PhD in Experimental Particle Physics at UCLA. I have experience as a software engineer before attending graduate school and like to think I know my way around statistics, algorithms, cyclotrons, control systems and particle physics. Having spent years studying the arcane world of particle physics, I hope to move into a field where clever ideas are needed to solve problems that have a real impact on our future. A condensed version of my resume can be found in the sidebar with more details contained below
 
 - [Physics](#physics)
 - [Statistics](#statistics)
@@ -12,6 +12,14 @@ I am currently towards the end of my PhD in Experimental Particle Physics at UCL
 
 <a name="physics"></a>
 ## Physics
+
+The Large Hadron Collider (LHC) at CERN is the highest energy particle collider in the world and the largest machine ever built. When operating, a proton-proton collision happens once every 25 nanoseconds. The resulting aftermath is then recorded inside of one of the massive detectors found along the ring straddling the border of France and Switzerland.
+
+My thesis work involves analysis of collisions within the Compact Muon Solenoid (CMS) detector at the LHC. Within CMS, every so-called "event" cannot be recorded to disk due to bandwidth limitations associated with the high 40 MHz collision frequency. To illustrate this point, particles produced by a collision leaving the detector at the speed of light are only part way out of the detector when the next collision takes place. This rapid succession of collisions therefore requires a series of low-level triggers which can quickly determine which events are worth recording.
+
+The UCLA CMS group has expertise with muons, particles which are produced by the initial proton-proton collisions, which are particularly useful because their experimental signature is not easily confused with others that may have been produced. For the first part of my thesis, I developed and verified an algorithm that improves the position resolution of low-level primitives used in reconstructing muons by a factor of two. This translates into a trigger that can more easily discern an interesting event from a more common, less interesting one. The algorithm was implemented and tested with a simulation of the reconstruction firmware I wrote in C++, which feeds the individual detector hits into a lookup table.
+
+For the second part of my thesis, I am conducting a search for a long-lived neutral particle which decays into two muons. This analysis uses the full body of the CMS detector to look for potential dark matter candidates which could be produced using the 13 TeV center of mass energy of each collision. Data recorded at CMS is analyzed and then piped through a series of selection criteria to select for well measured candidate events. Expected 95% confidence level upper-limits on the production cross-section are then calculated using a likelihood function combining the expected number background events and various systematic uncertainties. The events within our signal region we remain blinded to until the full analysis is complete.
 
 Academic
 : 2014 - B.A. in Physics from Boston University *cum laude*
@@ -88,30 +96,3 @@ Fraternity
 
 [open-days]: https://opendays.cern/
 [eyu]: https://www.exploringyouruniverse.org/
-
-<!-- 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
-
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
-
-There are currently two themes built on Poole:
-
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
-
-Learn more and contribute on [GitHub](https://github.com/poole).
-
-## Setup
-
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading! -->
