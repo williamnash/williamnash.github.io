@@ -47,16 +47,13 @@ Profile Likelihood
 <a name="software"></a>
 ## Software
 
-Languages
-: `python`
-: `C++`
-: `LaTeX`
+<!-- Implemented gitlab CI and code testing -->
 
+Languages
+: `python`, `C++`, `Markdown`, `LaTeX`
 
 Programs
-: `git`
-: [`ROOT`][root]
-: `Qt`
+: [`awkward`][awkward], [`coffea`][coffea], `numpy`, `git`, `matplotlib`, [`ROOT`][root], `Qt`, `gimp`
 
 Slides
 : My [talk template][talk] was designed with [remark][remark]
@@ -86,6 +83,8 @@ Fraternity
 
 [likelihood]: /assets/profile-likelihood.pdf
 
+[awkward]: https://awkward-array.org/quickstart.html
+[coffea]: hhttps://coffeateam.github.io/coffea/index.html
 [root]: https://root.cern.ch/
 [talk]: https://williamnash.github.io/talk-template/
 [remark]: https://github.com/gnab/remark
