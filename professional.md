@@ -50,7 +50,7 @@ Profile Likelihood
 <!-- Implemented gitlab CI and code testing -->
 
 Languages
-: `python`, `C++`, `Markdown`, `LaTeX`
+: `python`, `C++`, `bash`, `Markdown`, `LaTeX`
 
 Programs
 : [`awkward`][awkward], [`coffea`][coffea], `numpy`, `git`, `matplotlib`, [`ROOT`][root], `Qt`, `gimp`
