@@ -80,7 +80,7 @@ Volunteering
 
 
 Fraternity
-: Sigma Alpha Mu Scholarship Chair 2011-2018
+: Sigma Alpha Mu Scholarship Chair 2011-2013
 
 
 
