@@ -3,7 +3,7 @@ layout: page
 title: Professional
 ---
 
-I am currently towards the end of my PhD in Experimental Particle Physics at UCLA. I have experience as a software engineer before attending graduate school and like to think I know my way around statistics, algorithms, cyclotrons, control systems and particle physics. Having spent years studying the arcane world of particle physics, I hope to move into a field where clever ideas are needed to solve problems that have a real impact on our future. A condensed version of my resume can be found in the sidebar with more details contained below
+I just finished my [PhD in Experimental Particle Physics](https://escholarship.org/uc/item/3gw9h84p) at UCLA. I have experience as a software engineer before attending graduate school and know my way around data analysis, statistics, algorithms, control systems and particle physics. Having spent years studying the arcane world of particle physics, I hope to move into a field where clever ideas are needed to solve problems that have a real impact on our future. A condensed version of my resume can be found in the sidebar with more details contained below
 
 - [Physics](#physics)
 - [Statistics](#statistics)
@@ -13,20 +13,16 @@ I am currently towards the end of my PhD in Experimental Particle Physics at UCL
 <a name="physics"></a>
 ## Physics
 
-The Large Hadron Collider (LHC) at CERN is the highest energy particle collider in the world and the largest machine ever built. When operating, proton-proton collisions happen once every 25 nanoseconds. This results in a perturbation of quantum fields and results in particles that get produced in the detector. These particles recorded inside of one of the detectors found along the collider ring that straddles the border of France and Switzerland.
-
-My thesis work involves analysis of collisions within the Compact Muon Solenoid (CMS) detector at the LHC. Within CMS, every so-called "event" cannot be recorded to disk due to bandwidth limitations associated with the high 40 MHz collision frequency. To illustrate this point, particles produced by a collision leaving the detector at the speed of light are only part way out of the detector when the next collision takes place. This rapid succession of collisions therefore requires a series of low-level triggers which can quickly determine which events are worth recording.
-
-The UCLA CMS group has expertise with muons, particles which are produced by the initial proton-proton collisions, which are particularly useful because their experimental signature is not easily confused with others that may have been produced. 
-
+My thesis work involves analysis of collisions within the Compact Muon Solenoid (CMS) detector at the Large Hadron Collider. Within CMS, every so-called "event" cannot be recorded to disk due to bandwidth limitations associated with the high 40 MHz collision frequency. To illustrate this point, particles produced by a collision leaving the detector at the speed of light are only part way out of the detector when the next collision takes place. This rapid succession of collisions therefore requires a series of low-level triggers to select events with particles which are worth recording. In particular, the UCLA CMS group has expertise with muons which have an experimental signature not easily confused with others particles, therefore making them useful for investigating the underlying event.
 
 For the first part of my thesis, I developed and verified an algorithm that improves the position resolution of low-level primitives used in reconstructing muons by a factor of two. This translates into a trigger that can more easily discern an interesting event from a more common, less interesting one. The algorithm was implemented and tested with a simulation of the reconstruction firmware I wrote in C++, which feeds the individual detector hits into a lookup table.
 
-For the second part of my thesis, our team conducted a search for a long-lived neutral particle which decays into two muons. This analysis uses the full extent of the CMS detector to look for potential dark matter candidates which could be produced using the 13 TeV center of mass energy of each collision. Data recorded at CMS is analyzed and then piped through a series of selection criteria to select for well measured candidate events. Our analysis selects only a few tens of candidates down from the hundreds of quadrillions of initial collisions. Expected 95% confidence level upper-limits on the production cross-section are then calculated using a likelihood function combining the expected number background events and various systematic uncertainties. 
+For the second part of my thesis, I conducted a search for a long-lived neutral particle which decays into two muons. This analysis uses the full extent of the CMS detector to look for potential dark matter candidates which could be produced using the 13 TeV center of mass energy of each collision. Data recorded at CMS is analyzed and then piped through a series of selection criteria to select for well measured candidate events. Our analysis selects only a few tens of candidates down from the hundreds of quadrillions of initial collisions. Expected 95% confidence level upper-limits on the production cross-section are then calculated using a likelihood function combining the expected number background events and various systematic uncertainties. 
 
 Academic
-: 2014 - B.A. in Physics from Boston University *cum laude*
-: 2017 - M.S. in Physics from UCLA
+: 2014 - BA in Physics from Boston University *cum laude*
+: 2017 - MS in Physics from UCLA
+: 2022 - PhD in Physics from UCLA
 
 Publications
 : [CMS Author][cms-author]: Feb 24, 2019 - Present
