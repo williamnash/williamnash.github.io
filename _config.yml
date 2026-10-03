@@ -1,20 +1,31 @@
-plugins: [jekyll-paginate]
-
-# Permalinks
-permalink:        pretty
-relative_permalink: true
-
-# Setup
 title:            William Nash
-tagline:          ''
-description:      'Data Scientist / Engineer'
-url:              https://williamnash.github.io/
-baseurl:          /
+description:      'Head of Engineering at Chloris Geospatial. Previously particle physics at CERN and proton-therapy software at Mevion.'
+url:              https://williamnash.github.io
+baseurl:          ''
 
-paginate:         5
+author:
+  name:           William Nash
+  email:          william.a.nash92@gmail.com
+  linkedin:       https://www.linkedin.com/in/will-nash/
+  github:         https://github.com/williamnash
 
-# Custom vars
-version:          0.1.1
+# Blank hides the Resume link.
+resume:           /assets/wnash-2026-10-02.pdf
 
-github:           
-  repo:           https://github.com/williamnash/williamnash.github.io
+markdown:         kramdown
+kramdown:
+  input:          GFM
+  auto_ids:       true
+
+# Keeps the old post URLs, e.g. /posts/2016-9-1-world-tour/. Pages set their own permalink.
+permalink:        /posts/:year-:i_month-:i_day-:title/
+
+defaults:
+  - scope: { path: '', type: posts }
+    values: { layout: post }
+
+exclude:
+  - README.md
+  - LICENSE.md
+  - Gemfile
+  - Gemfile.lock
