@@ -10,7 +10,7 @@ lede: Ten years of distributed systems and scientific computing, from LHC analys
 <div class="role-head"><h3>Head of Engineering</h3><span>May 2022 – present · Boston</span></div>
 <p class="role-title">Data Engineer → Senior Software Engineer → Principal Engineer → Head of Engineering</p>
 
-[Chloris](https://chloris.earth) measures forest carbon from satellite imagery. I joined as the second engineer and now lead the engineering team.
+[Chloris](https://chloris.earth) measures forest carbon from satellite imagery. I joined as one of two engineers and now lead the engineering team.
 
 - Built a petabyte-scale geospatial data platform whose Dask workloads, on thousands of AWS workers, produce Chloris's commercial product: global carbon-stock maps spanning 25 years.
 - Engineered the production ML pipeline behind those maps, from satellite feature generation through model training to continental-scale distributed inference.
@@ -34,7 +34,7 @@ My [thesis](https://escholarship.org/uc/item/3gw9h84p) analyzed collisions in th
 
 - Developed real-time algorithms that modulate proton-beam position on a 250 MeV synchrocyclotron used for cancer treatment.
 - Built a GEANT4 particle-transport simulation farm on AWS for radiation-field modeling and verification.
-- Simulated and tested a water-cooled, dual-axis magnet prototype for steering the beam.
+- Simulated and tested a water-cooled, dual-axis magnet prototype.
 
 ## Education, awards and papers
 

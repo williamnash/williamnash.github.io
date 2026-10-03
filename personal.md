@@ -21,7 +21,7 @@ I spend as much time outside as I can, mostly rock climbing, snowboarding and hi
 I've been lucky enough to travel much of the world, including more than two years living in Europe for my studies. I wrote up [a month-long trip around the world]({% post_url 2016-9-1-world-tour %}) and [a year in Geneva]({% post_url 2020-4-4-year-in-geneva %}) for anyone planning something similar. Some photos from along the way:
 
 <div class="gallery">
-{% assign photos = "angkor-wat.jpg:Angkor Wat, Cambodia|la-sagrada-familia.jpg:Sagrada Família, Barcelona|vevey.jpeg:Vevey, Switzerland|mont-serrat.jpg:Montserrat, Spain|shanghai.jpg:The Bund, Shanghai|grindelwald.jpeg:Grindelwald, Switzerland|buddha.jpg:Siem Reap, Cambodia|cambodia.jpg:Temples near Siem Reap|yu-garden.jpg:Yu Garden, Shanghai|belvedere-palace.jpg:Belvedere Palace, Vienna|mammoth.jpeg:Mammoth Mountain, California|taj-mahal.jpg:Taj Mahal, Agra" | split: "|" %}
+{% assign photos = "angkor-wat.jpg:Angkor Wat, Cambodia|la-sagrada-familia.jpg:Sagrada Família, Barcelona|vevey.jpeg:Vevey, Switzerland|mont-serrat.jpg:Montserrat, Spain|shanghai.jpg:The Bund, Shanghai|grindelwald.jpeg:Grindelwald, Switzerland|buddha.jpg:Guanyin statue|cambodia.jpg:Temples near Siem Reap|yu-garden.jpg:Yu Garden, Shanghai|belvedere-palace.jpg:Belvedere Palace, Vienna|mammoth.jpeg:Mammoth Mountain, California|taj-mahal.jpg:Taj Mahal, Agra" | split: "|" %}
 {% for p in photos %}{% assign parts = p | split: ":" %}
   <figure><img src="{{ '/images/' | append: parts[0] | relative_url }}" alt="{{ parts[1] }}" loading="lazy"><figcaption>{{ parts[1] }}</figcaption></figure>
 {% endfor %}
