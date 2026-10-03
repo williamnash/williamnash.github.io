@@ -9,7 +9,6 @@
 
   --serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
   --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  --mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
 
   --measure: 42rem;
   --gutter: 1.25rem;
@@ -57,21 +56,12 @@ h1, h2, h3 {
 h1 { font-size: clamp(2rem, 5vw, 2.6rem); margin: 0 0 1rem; }
 h2 { font-size: 1.55rem; margin: 3rem 0 1rem; }
 h3 { font-size: 1.2rem; margin: 2rem 0 0.5rem; }
-h4, h5 { font-size: 1rem; margin: 1.75rem 0 0.5rem; }
+h5 { font-size: 1rem; margin: 1.75rem 0 0.5rem; }
 
 p, ul, ol, dl { margin: 0 0 1.1rem; }
 li + li { margin-top: 0.3rem; }
 
 img { max-width: 100%; height: auto; display: block; border-radius: 6px; }
-
-code {
-  font: 0.9em var(--mono);
-  background: var(--surface);
-  padding: 0.1em 0.35em;
-  border-radius: 4px;
-}
-
-hr { border: 0; border-top: 1px solid var(--rule); margin: 2.5rem 0; }
 
 /* Header and footer */
 
@@ -183,7 +173,6 @@ main.wrap { padding-top: 3rem; padding-bottom: 4rem; }
 /* Long-form pages */
 
 .page h2 { padding-top: 1.5rem; border-top: 1px solid var(--rule); }
-.page h1 + .lede, .page h1 + p { margin-top: 0; }
 .page img { margin: 1.5rem 0; }
 
 .eyebrow { color: var(--muted); font-size: 0.9rem; margin-bottom: 0.5rem; }
