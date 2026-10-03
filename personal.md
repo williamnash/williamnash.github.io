@@ -1,64 +1,36 @@
 ---
 layout: page
 title: Personal
+permalink: /personal/
 ---
 
-I am from the town of [Northampton][northampton], Massachusetts known for it's food, music, and colorful folk. I am the oldest among my two sisters and spent my youth building forts in the woods in my backyard, playing with legos, jumping off of dams, filming movies, and injuring myself learning to skateboard.
+I'm from [Northampton](https://en.wikipedia.org/wiki/Northampton,_Massachusetts), Massachusetts, a town known for its food, music and colorful folk. I'm the oldest of three, with two younger sisters, and spent my youth building forts in the woods behind our house, playing with Lego, jumping off dams, filming movies, and injuring myself learning to skateboard.
 
-I moved to Boston for school in 2010, where I was exposed to a diverse class of students many of whom have become lifelong friends. I enjoyed going for runs along the Charles River and miss the delicious food available on demand at nearly all hours. While at school I became scholarship chair of my [fraternity][sigma-alpha-mu], president of the [BU PC gaming club][bu-pc-gaming], and later travelled abroad after being accepted into the [Geneva Physics program][geneva-program], which would kick-start my career in Particle Physics.
+I moved to Boston for school in 2010 and met a wonderfully varied class of students, many of whom became lifelong friends. I ran along the Charles, ate very well at all hours, served as scholarship chair of my [fraternity](https://en.wikipedia.org/wiki/Sigma_Alpha_Mu) and president of the BU PC gaming club, and then went abroad on the [Geneva Physics program](http://www.bu.edu/abroad/programs/geneva-physics-program/), which started my career in particle physics. After graduating I stayed in the area for a job in Littleton, and spent my mornings and evenings reading on the commuter rail in and out of North Station.
 
-I continued to live in the area after I graduated after getting a job in Littleton, MA and would spend my mornings and nights reading on the commuter rail travelling in and out of North Station.
+In 2016 I moved to Los Angeles for graduate school and got used to the weather and the UCLA campus very quickly. Research on the LHC took me back and forth to Geneva (which didn't take much convincing) and introduced me to brilliant people from all over the world. In 2022 I came back to the Boston area to join Chloris.
 
-I moved to Los Angeles after being accepted into graduate school in 2016 and quickly got used to the nice weather and beautiful UCLA campus. Research on the LHC required me to occasionally travel back and forth to Geneva (which didn't require much convincing on my part) and allowed me to meet extremely intelligent people from all over the world. 
+## Outdoors
 
-Outdoors
-: I enjoy spending time outdoors, primarily rock climbing, snowboarding, and hiking
+I spend as much time outside as I can, mostly rock climbing, snowboarding and hiking.
 
-![crans-montana](/images/crans-montana.jpg)
+![Crans-Montana, Switzerland](/images/crans-montana.jpg)
 
-Travel
-: I have been fortunate enough to travel around much of the world, and spent over two years in Europe as part of my studies
-: For those looking to travel, I wrote two small pieces on [my trip around the world][world-tour] and [my stay in geneva][geneva]
-: Some photos I have taken over the years are shown below
+## Travel
 
-<body>
-<div class="outer-grid">
-<div class="inner-grid">
-<img src="/images/angkor-wat.JPG" width="500"/>
-<img src="/images/la-sagrada-familia.JPG" width="500"/>
-<img src="/images/vevey.jpeg" width="500"/>
-<img src="/images/mont-serrat.JPG" width="500"/>
+I've been lucky enough to travel much of the world, including more than two years living in Europe for my studies. I wrote up [a month-long trip around the world]({% post_url 2016-9-1-world-tour %}) and [a year in Geneva]({% post_url 2020-4-4-year-in-geneva %}) for anyone planning something similar. Some photos from along the way:
+
+<div class="gallery">
+{% assign photos = "angkor-wat.jpg:Angkor Wat, Cambodia|la-sagrada-familia.jpg:Sagrada Família, Barcelona|vevey.jpeg:Vevey, Switzerland|mont-serrat.jpg:Montserrat, Spain|shanghai.jpg:The Bund, Shanghai|grindelwald.jpeg:Grindelwald, Switzerland|buddha.jpg:Siem Reap, Cambodia|cambodia.jpg:Temples near Siem Reap|yu-garden.jpg:Yu Garden, Shanghai|belvedere-palace.jpg:Belvedere Palace, Vienna|mammoth.jpeg:Mammoth Mountain, California|taj-mahal.jpg:Taj Mahal, Agra" | split: "|" %}
+{% for p in photos %}{% assign parts = p | split: ":" %}
+  <figure><img src="{{ '/images/' | append: parts[0] | relative_url }}" alt="{{ parts[1] }}" loading="lazy"><figcaption>{{ parts[1] }}</figcaption></figure>
+{% endfor %}
 </div>
-<div class="inner-grid">
-<img src="/images/shanghai.jpg" width="500"/>
-<img src="/images/grindelwald.jpeg" width="500"/>
-<img src="/images/buddha.JPG" width="500"/>
-<img src="/images/cambodia.JPG" width="500"/>
-</div>
-<div class="inner-grid">
-<img src="/images/yu-garden.JPG" width="500"/>
-<img src="/images/belvedere-palace.JPG" width="500"/>
-<img src="/images/mammoth.jpeg" width="500"/>
-<img src="/images/taj-mahal.JPG" width="500"/>
-</div>
-</div>
-</body>
 
-Music
-: In my free time I occasionally experiment with Logic Pro and keep my favorite outcomes on [Soundcloud][soundcloud]
+## Music
 
-Magic: the Gathering
-: I am a big fan of Magic, and maintain a [Vintage Cube][cube] which I update regularly
+I make music in Logic Pro now and then, and keep the outcomes I like on [SoundCloud](https://soundcloud.com/that-ivory).
 
+## Magic: the Gathering
 
-<!-- [shakespeare][shakespeare] -->
-
-[northampton]: https://en.wikipedia.org/wiki/Northampton,_Massachusetts
-[sigma-alpha-mu]: https://en.wikipedia.org/wiki/Sigma_Alpha_Mu
-[bu-pc-gaming]: http://bupcgaming.net/about.html
-[geneva-program]: http://www.bu.edu/abroad/programs/geneva-physics-program/
-[shakespeare]: https://williamnash.github.io/talk-template/
-[world-tour]: /posts/2016-9-1-world-tour
-[geneva]: /posts/2020-4-4-year-in-geneva
-[soundcloud]: https://soundcloud.com/that-ivory
-[cube]: https://cubecobra.com/cube/list/5f1de19a6ffa09102fca2040
+I'm a big fan of Magic and maintain a [Vintage Cube](https://cubecobra.com/cube/list/5f1de19a6ffa09102fca2040) that I update regularly.

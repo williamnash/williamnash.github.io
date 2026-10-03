@@ -1,0 +1,6 @@
+<span class="links">
+  {% if site.author.email != '' %}<a href="mailto:{{ site.author.email }}">Email</a>{% endif %}
+  <a href="{{ site.author.linkedin }}">LinkedIn</a>
+  <a href="{{ site.author.github }}">GitHub</a>
+  {% if site.resume != '' %}<a href="{{ site.resume | relative_url }}">Resume</a>{% endif %}
+</span>
