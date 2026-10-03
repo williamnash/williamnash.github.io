@@ -5,13 +5,12 @@ baseurl:          ''
 
 author:
   name:           William Nash
-  # Leave blank to keep a mailto link off the site.
-  email:          ''
+  email:          william.a.nash92@gmail.com
   linkedin:       https://www.linkedin.com/in/will-nash/
   github:         https://github.com/williamnash
 
-# Blank hides the Resume link. Set to e.g. /assets/wnash-2026-10-02.pdf once a public copy is added.
-resume:           ''
+# Blank hides the Resume link.
+resume:           /assets/wnash-2026-10-02.pdf
 
 markdown:         kramdown
 kramdown:
