@@ -1,0 +1,21 @@
+<aside class="sidebar">
+  <div class="sidebar-inner">
+    <div class="who">
+      <img src="{{ '/images/me-square.jpg' | relative_url }}" alt="" width="88" height="88">
+      <div>
+        <a class="who-name" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+        <p class="who-role"><span>Head of Engineering</span><span>Chloris Geospatial</span></p>
+      </div>
+    </div>
+    <nav class="nav" aria-label="Main">
+      {% assign section = page.url %}
+      {% if page.collection == "posts" %}{% assign section = "/writing/" %}{% endif %}
+      {% assign nav = "Home:/,Work:/professional/,Writing:/writing/,Personal:/personal/" | split: "," %}
+      {% for item in nav %}
+        {% assign parts = item | split: ":" %}
+        <a href="{{ parts[1] | relative_url }}"{% if section == parts[1] %} aria-current="page"{% endif %}>{{ parts[0] }}</a>
+      {% endfor %}
+    </nav>
+    {% include contact.html %}
+  </div>
+</aside>

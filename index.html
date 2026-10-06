@@ -2,77 +2,32 @@
 layout: default
 title: Home
 permalink: /
+description: "William Nash leads engineering at Chloris Geospatial, measuring forest carbon from space. Previously particle physics at CERN and proton-therapy software."
 ---
 
-<div class="home">
-  <section class="intro">
-    <img src="{{ '/images/me-square.jpg' | relative_url }}" alt="William Nash" width="120" height="120">
-    <div>
-      <h1>William Nash</h1>
-      <p class="role">Head of Engineering at <a href="https://chloris.earth">Chloris Geospatial</a></p>
-    </div>
-  </section>
+<h1 class="headline">My career has been spent where software meets the physical world.</h1>
+<p class="lede">I did my PhD on the CMS detector at CERN, arguably the most complicated machine in the world, and then wanted to put those skills toward a bigger purpose. Today I lead engineering at <a href="https://chloris.earth">Chloris Geospatial</a>, where we measure the world's forest carbon from space.</p>
 
-  <p class="lede">I build software for measuring the physical world. Today that means petabyte-scale satellite data and machine learning that map forest carbon across the planet. Before that, I spent six years in particle physics at UCLA and CERN, and two writing beam-control software for proton cancer therapy.</p>
-
-  {% include links.html %}
-
-  <h2 class="section-title">Path</h2>
-  <ul class="timeline">
-    <li>
-      <span class="when">2022 – now</span>
-      <div>
-        <strong>Head of Engineering</strong>
-        <span class="org">Chloris Geospatial, Boston</span>
-        <p>One of two engineers when I joined; built the data platform and ML pipeline behind Chloris's global, 25-year carbon-stock maps. Data Engineer → Senior → Principal → Head of Engineering.</p>
-      </div>
-    </li>
-    <li>
-      <span class="when">2016 – 2022</span>
-      <div>
-        <strong>PhD, Experimental Particle Physics</strong>
-        <span class="org">UCLA and CERN</span>
-        <p>Muon trigger algorithms for the CMS detector at the LHC, and a search for long-lived particles in quadrillions of proton collisions.</p>
-      </div>
-    </li>
-    <li>
-      <span class="when">2014 – 2016</span>
-      <div>
-        <strong>Software Engineer, Physics and Algorithms</strong>
-        <span class="org">Mevion Medical Systems</span>
-        <p>Real-time algorithms that steer the proton beam of a 250 MeV synchrocyclotron used to treat cancer.</p>
-      </div>
-    </li>
-    <li>
-      <span class="when">2010 – 2014</span>
-      <div>
-        <strong>BA in Physics, <em>cum laude</em></strong>
-        <span class="org">Boston University</span>
-      </div>
-    </li>
-  </ul>
-  <p><a href="{{ '/professional/' | relative_url }}">More on my work →</a></p>
-
-  <h2 class="section-title">Writing</h2>
-  <ul class="post-list">
-    {% for post in site.posts %}
-    <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %Y" }}</time></li>
-    {% endfor %}
-  </ul>
-
-  <h2 class="section-title">Elsewhere</h2>
-  <div class="cards">
-    <div class="card">
-      <h3><a href="https://github.com/williamnash/mandelflow">mandelflow</a></h3>
-      <p>A data-engineering scaling study: the Mandelbrot set rendered by 13 stages, from naive Python to GPU shaders and multi-pod Kubernetes.</p>
-    </div>
-    <div class="card">
-      <h3><a href="https://github.com/williamnash/talk-template">talk-template</a></h3>
-      <p>The remark + KaTeX template I use for technical talks.</p>
-    </div>
-    <div class="card">
-      <h3><a href="{{ '/personal/' | relative_url }}">Outside work</a></h3>
-      <p>Climbing, snowboarding, travel photos, music, and a Magic: the Gathering cube.</p>
-    </div>
-  </div>
-</div>
+<h2 class="label">Experience</h2>
+<ul class="rows">
+  <li class="row">
+    <span class="when">2022 – now</span>
+    <div><strong>Head of Engineering</strong> <span class="org">· Chloris Geospatial</span>
+      <p>I joined in 2022 and spent most of my time since on the platform that turns petabytes of satellite imagery into carbon-stock maps of the whole planet, 25 years deep. Now I lead the team that builds it.</p></div>
+  </li>
+  <li class="row">
+    <span class="when">2016 – 2022</span>
+    <div><strong>PhD, then postdoc</strong> <span class="org">· UCLA and CERN</span>
+      <p>My thesis had two halves: a pattern-recognition algorithm that looks for muons 40 million times a second, and a search through petabytes of LHC data for a long-lived particle that could point to dark matter.</p></div>
+  </li>
+  <li class="row">
+    <span class="when">2014 – 2016</span>
+    <div><strong>Software Engineer</strong> <span class="org">· Mevion Medical Systems</span>
+      <p>My first job out of school: simulating, testing and writing software for a prototype magnet that steers proton beams used to treat cancer.</p></div>
+  </li>
+  <li class="row">
+    <span class="when">2010 – 2014</span>
+    <div><strong>BA in Physics, cum laude</strong> <span class="org">· Boston University</span></div>
+  </li>
+</ul>
+<p class="more"><a href="{{ '/professional/' | relative_url }}">Full history on the Work page →</a></p>
