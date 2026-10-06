@@ -2,10 +2,11 @@
 layout: page
 title: Work
 permalink: /professional/
-lede: Ten years of distributed systems and scientific computing, from the Large Hadron Collider to climate.
+description: "More than ten years of distributed systems and scientific computing, from the Large Hadron Collider to climate."
+lede: More than ten years of distributed systems and scientific computing, from the Large Hadron Collider to climate.
 ---
 
-<p class="label">Experience</p>
+<h2 class="label">Experience</h2>
 <ul class="rows">
   <li class="row">
     <span class="when">2022 – now</span>
@@ -23,9 +24,9 @@ lede: Ten years of distributed systems and scientific computing, from the Large 
   <li class="row">
     <span class="when">2016 – 2022</span>
     <div><strong>PhD candidate, then postdoc</strong> <span class="org">· UCLA and CERN</span>
-      <p>My <a href="https://escholarship.org/uc/item/3gw9h84p">thesis</a> analyzed collisions in the Compact Muon Solenoid (CMS) detector at the Large Hadron Collider. Protons collide 40 million times a second, far too often to record every event: particles from one collision are still leaving the detector when the next one happens. A chain of fast triggers decides, in real time, which collisions are worth keeping.</p>
+      <p>My <a href="https://escholarship.org/uc/item/3gw9h84p">thesis</a> analyzed collisions in the Compact Muon Solenoid (CMS) detector at the Large Hadron Collider. Bunches of protons cross 40 million times a second, far too often to record every event: particles from one crossing are still leaving the detector when the next one happens. A chain of fast triggers decides, in real time, which collisions are worth keeping.</p>
       <p><em>A sharper muon trigger.</em> I designed a C++ pattern-recognition algorithm that doubles the position resolution of the low-level hits used to reconstruct muons, so the trigger can better tell an interesting collision from a common one. Its lookup tables were deployed to the detector's FPGA firmware at no added latency, and run in LHC Run 3.</p>
-      <p><em>A search for long-lived particles.</em> I searched for a neutral particle that travels some distance before decaying into two muons, a possible dark-matter signature. Custom reconstruction and data-driven background estimates, written in C++ and distributed Python on the CERN grid, narrowed hundreds of quadrillions of collisions to a few tens of candidates. The resulting limits were world-leading (<a href="https://link.springer.com/article/10.1007/JHEP05(2023)228">JHEP 05 (2023) 228</a>).</p>
+      <p><em>A search for long-lived particles.</em> I searched for a neutral particle that travels some distance before decaying into two muons, a possible dark-matter signature. Custom reconstruction and data-driven background estimates, written in C++ and distributed Python on the CERN grid, narrowed quadrillions of collisions to a few tens of candidates. The resulting limits were world-leading (<a href="https://link.springer.com/article/10.1007/JHEP05(2023)228">JHEP 05 (2023) 228</a>).</p>
     </div>
   </li>
   <li class="row">
